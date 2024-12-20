@@ -1,93 +1,185 @@
-# group_04_project
+# Liquiditydepth.xyz
+Real-Time Liquidity Comparison Dashboard for Centralized and Decentralized Crypto Exchanges
+
+## Objective
+The primary objective of this project is to develop a web-based dashboard that streams real-time data from major decentralized exchanges (DEXs) and centralized exchanges (CEXs). This dashboard will provide users an intuitive interface to compare liquidity and price for top trading pairs across multiple venues/networks. The goal is to identify the exchanges that offer the most liquidity and lowest-cost execution environments for traders.
+
+## Background and Motivation 
+Liquidity plays a crucial role in the efficiency of cryptocurrency markets. Traders seek venues where they can execute trades with minimal slippage and competitive transaction costs. While centralized exchanges traditionally dominate liquidity, liquidity in decentralized exchanges has grown significantly, especially with the rise of automated market makers (AMMs) and liquidity pools. However, traders often struggle to compare liquidity across exchanges due to differences in trading mechanisms, fee structures, and available data.
+
+This project addresses the need for a unified platform aggregating liquidity information across DEXs and CEXs. By providing real-time data on liquidity, the dashboard will empower traders to make more informed decisions about where to execute trades, potentially improving their trading outcomes and reducing transaction costs.
+
+## Methodology
+The development of the dashboard involves several key components, each crucial for ensuring accurate, timely, and actionable data delivery:
+
+### 1. Data Sources and Collection
+* CEX data collection: We leveraged the CCXT library and used a WebSocket connection to stream data for various pairs from top exchanges 
+* DEX data collection: We used Codex.io, utilizing API calls for token/pair data and Websocket connections to get candlestick data for specific pairs
+
+### 2. Data Streaming and Processing
+Data Processing and Enrichment: Calculate effective spreads, average trade execution costs, slippage at different trade sizes, and historical liquidity trends. The system should also aggregate data for different asset pairs, allowing users to compare liquidity across markets.
+
+### 3. Frontend Visualization  
+The front end includes a user-friendly, interactive dashboard displaying key real-time metrics. Users can filter data by specific exchanges, asset pairs, and time intervals. We built the front end using React Js with TypeScript, leveraging Tailwind CSS for styling and Recharts for sophisticated data visualization components. The application features a dual-panel system that handles centralized (CEX) and decentralized (DEX) exchange data through an intuitive interface with interactive charts, including real-time liquidity depth, spread analysis, and volume distribution visualizations.
+
+(Example: BTC/USDT)
+![alt text](docs/img/img1.png)
+
+Price chart for specific pairs showing different exchanges.
+![alt text](docs/img/img2.png)
+
+Bar Chart visualizing the spread for specific pair.
+![alt text](docs/img/img3.png)
+
+Pie chart visualizing volume of pair across exchanges.
+![alt text](docs/img/img4.png)
+
+### 4. Backend and Data Infrastructure
+
+Architecture:
+1. Data ingestion processes stream live DEX/CEX data 
+2. Data published to Kinesis stream 
+3. Post-processing subscribes to Kinesis stream
+4. Processed data stored in PostgreSQL
+5. API serves data from PostgreSQL to frontend
+
+Our services are hosted on AWS. Our backend services support:
+  - Real-Time Data Ingestion: A data pipeline continuously ingests and processes live data streams from DEXs and CEXs. Use WebSocket connections where available for low-latency data, and fall back on REST API polling for exchanges that lack WebSocket support.
+  - Kinesis Stream: Incoming liquidity data is streamed using AWS Kinesis for real-time data processing. Data ingestion processes publish liquidity data to Kinesis with appropriate partition keys, and data post-processing processes subscribe to the Kinesis stream. This ensures high observability, scalability, and low latency in data ingestion, processing, and visualization pipelines.
+  - Scalable PostgreSQL database: Data is stored in an AWS PostgreSQL database with auto-scaling enabled to handle sudden spikes in ingest and outgoing traffic. To prepare for long-term running, table schemas are specifically normalized to reduce redundant storage.
+  - Compute hosting: all processes, such as data ingression, post-processing, and API serving, are hosted on one EC2 instance with high bandwidth. 
+  - Cost optimization: we choose burstable EC2 instance types to reduce cost during regular workload. The database is designed to minimize unnecessary columns. The Kinesis stream is determined to be auto-scalable based on workload.
+
+
+Key Features:
+* High observability and scalability
+* Low latency processing
+* Cost-optimized infrastructure
+* Auto-scaling capabilities
+* Normalized database design
+
+![alt text](docs/img/img5.png)
+
+
+## Challenges and Considerations
+
+### API Rate Limits and Data Accessibility 
+This section handles rate limits imposed by exchange APIs and potential changes in data access policies.
+
+### Data Scalability and Standardization Across Venues
+With multiple streams of live data across different venues and providers, the scalability of data streams became an issue in terms of where we hosted stream producers and consumers. Additionally, inconsistencies within the streamed data, such as missing or different data, made it difficult to store and analyze data within the database. 
+
+## Codebase/Technical Details
+
+### Visualizations
+The frontend framework is organized with a component-based architecture where CEXpanel and DEXpanel are the main container components, managing data fetching and state. Data is queried through HTTP requests to an API endpoint, with parameters encoded in base64 for URL parameter safety. The fetched data is then processed through utility functions that transform the raw JSON responses into structured formats suitable for visualization.
+
+The visualization layer consists of three main graph components:
+* LiquidityChart: Processes timestamp-based price data into high/low time series data with custom zoom functionality
+* Spreadshirt: Aggregates high-low spreads across exchanges into comparative bar charts
+* VolDist: Transforms selected volume data into a pie chart by calculating the most recent trading volumes for each exchange
+
+### AWS Kinesis Streams
+The kinesis_test directory implements a custom TypeScript interface to interact with AWS Kinesis, bridging the gap between AWS's Java-based Kinesis Client Library (KCL) and our TypeScript application. The producer side implements WebSocket connections to various cryptocurrency exchanges, collecting real-time market data and streaming it to Kinesis shards. The consumer side processes these streams and sends the data to our database. Since AWS's KCL is primarily Java-based, we created our own TypeScript abstractions using AWS SDK v3, implementing features like automatic shard handling, batch publishing, and checkpoint management while maintaining type safety throughout the application.
+![alt text](docs/img/img6.png)
+
+
+## Websocket and API Data Producers
+
+### CCXT Implementation
+The project implemented two distinct data collection approaches through CCXT (Cryptocurrency Exchange Trading Toolkit) and Codex.io's GraphQL API:
+
+The ccxt_script.py and ccxtProducer.ts establish connections to centralized exchanges (Coinbase, Gemini, Kraken) through CCXT's unified API. We fetch OHLCV (Open, High, Low, Close, Volume) data and order book depth to calculate liquidity within a 1% price range of the current market price. The TypeScript producer maintains continuous WebSocket connections, collecting data at 1-minute intervals and streaming it to AWS Kinesis.
+
+### Codex.io Integration
+Through codex_script.py, codexWSProducer.ts, and some other files, we interface with Codex.io's GraphQL API to gather DEX (Decentralized Exchange) data. The GraphQL queries fetch:
+* Network information across multiple chains (Ethereum, Polygon, Arbitrum)
+* Token pair data, including addresses and exchange metadata
+* Real-time OHLCV metrics through WebSocket subscriptions
+* Market depth and volume information for specific trading pairs
+
+Both data streams are normalized and published to AWS Kinesis streams, which are processed and stored in our database through consumer applications. The system maintains consistent data formats despite the different sources, allowing unified visualization on our front end.
+
+### DB and Middleware
+This Flask API in "middleware/app.py"  serves as a middleware interface between clients and a PostgreSQL database. Since the application is designed for data retrieval only, it focuses exclusively on GET endpoints. The system utilizes psycopg2 for database connections, with configuration details securely managed through environment variables loaded via python-dotenv. To safely handle special characters and symbols in URLs, the API implements base64 URL-safe encoding/decoding for parameters through custom unhash_str and unhash_list functions.
+
+The API offers several key endpoints, each serving different data needs. The OHLCV endpoints handle multiple exchanges and symbols, using SQL queries with window functions for data sampling. The dynamic pairs endpoint manages token pair relationships, supporting bidirectional pair matching and integrating with static token data. To optimize response payload sizes and maintain consistent data density, the API employs a sampling strategy through the sample_rows function, which evenly distributes data points across time series data.
+
+Error handling is implemented comprehensively throughout the application, with consistent error response formatting using jsonify and appropriate HTTP status codes. All database operations are wrapped in try-except blocks with proper connection cleanup in the "finally" blocks. Security considerations are addressed through CORS support via flask_cors, environment variable configuration, and the exclusive use of read-only operations. The API also emphasizes query optimization through prepared statements to prevent SQL injection.
+
+The database is designed to track and store cryptocurrency trading data across both centralized and decentralized exchanges. Here are a couple of database table examples we use:
+
+This table stores the core trading data with Open, High, Low, Close, and Volume (OHLCV) information. The network_id field specifically identifies different blockchain networks for DEX data.
+![alt text](docs/img/img7.png)
+
+Tracks individual token metrics over time, which is particularly useful for DEX token analysis.
+![alt text](docs/img/img8.png)
+![alt text](docs/img/img9.png)
+
+## Future considerations:
+### Data Diversification:
+Currently, our visualization only supports select pairs and exchanges, and we look to aggregate more data from different exchanges and pairs into our data stream.
+### DB management: 
+Since we are ingesting high volumes of data, we need to take more steps to manage our database. In the future, we would integrate regular VACUUM operations, data archiving, and query performance monitoring
 
 
 
-## Getting started
+# Running Instructions
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+## Overview
+This application consists of three main components that need to run simultaneously:
+1. Middleware (App.py)
+2. Producer/Subscriber
+3. Frontend (Liquidity Depth)
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
-
-## Add your files
-
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+### 1. Middleware
+Navigate to the /middleware directory and run:
 
 ```
-cd existing_repo
-git remote add origin https://gitlab.engr.illinois.edu/ie421_high_frequency_trading_fall_2024/ie421_hft_fall_2024_group_04/group_04_project.git
-git branch -M main
-git push -uf origin main
+python3 app.py
 ```
 
-## Integrate with your tools
 
-- [ ] [Set up project integrations](https://gitlab.engr.illinois.edu/ie421_high_frequency_trading_fall_2024/ie421_hft_fall_2024_group_04/group_04_project/-/settings/integrations)
+### 2. Producer/Subscriber instance (Similar run instructions for other producer/consumer files)
+Navigate to the /kinesis_test/src directory and run:
 
-## Collaborate with your team
+```
+npm run tsx codexWSProducer
+```
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Set auto-merge](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
 
-## Test and Deploy
+### 3. Frontend
+Navigate to the /liquidity-depth directory and run:
 
-Use the built-in continuous integration in GitLab.
+```
+npm run dev
+```
 
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
 
-***
+## Requirements
+- Python 3.x
+- Node.js & npm
+- All dependencies installed in respective directories
 
-# Editing this README
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thanks to [makeareadme.com](https://www.makeareadme.com/) for this template.
 
-## Suggestions for a good README
+## Team members
 
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
+### Sameer Komoravolu
+Hello everyone! I’m Sameer Komoravolu, part of the BS/MCS program, graduating in Spring 2026. I have research and internship experience with deep learning & IOT. I am passionate about algorithms and the math that goes into the technology we use every day, and I hope to learn more about software development and am open to any research topics and projects. I play a lot of tennis and ping pong, so feel free to reach out!
+* Email: skomo2@illinois.edu
+* Linkedin: https://www.linkedin.com/in/sameer-komoravolu-80a7ba229/
 
-## Name
-Choose a self-explaining name for your project.
+### Hanbo Guo
+This is Hanbo Guo, a MS CS student interested in radar sensing. I am proficient in system engineering and data engineering. I interned in Tencent as a data engineer in 2023 and NVIDIA as a system engineer in 2024. I will join TikTok as a Research Engineer in ML Sys in 2025. In my spare time, I am a SUI chain enthusiast and I am actively developing an atomic arbitrage strategy. 
+* Email: hanbog2@illinois.edu
 
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+### Kevin Huang
+Hey my name is Kevin, a current undergraduate in CS interested in networking architecture and computational neuroscience. I am currently a course assistant for UIUC’s computer architecture course and doing research for latent representations of brain functions using deep learning. In my free time, I enjoy attending jazz/symphony concerts and going to the gym. I enjoy meeting new people, so please don;t hesitate to reach out!
+* Email: kh47@illinois.edu
+* LinkedIn: https://www.linkedin.com/in/kevin-mc-huang/
 
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
-
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
-
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
-
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
-
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
-
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
-
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
-
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
-
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
-
-## License
-For open source projects, say how it is licensed.
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+### Akshat Gupta
+Hi, My name is Akshat Gupta, a current undergraduate in CS interested in AI and crypto. I am currently a course assistant for UIUC’s data structures course. In my free time, I am interested in health/working out and learning about new things. Feel free to reach out and chat!
+* Email: akshatg4@illinois.edu
+* Linkedin: https://www.linkedin.com/in/akshatgupta124/
