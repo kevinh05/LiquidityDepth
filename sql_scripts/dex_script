@@ -1,0 +1,31 @@
+CREATE TABLE networks (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE tokens (
+    id SERIAL PRIMARY KEY,
+    network_id INT REFERENCES networks(id),
+    name VARCHAR(100) NOT NULL,
+    address VARCHAR(100) NOT NULL UNIQUE,
+    symbol VARCHAR(50),
+    price DECIMAL(18, 8),
+    market_cap DECIMAL(18, 2),
+    price_last_updated TIMESTAMP
+);
+
+
+CREATE TABLE pairs (
+    id SERIAL PRIMARY KEY,
+    token_id INT REFERENCES tokens(id),
+    pair_address VARCHAR(100) NOT NULL UNIQUE,
+    fee DECIMAL(18, 8),
+    backing_token_address VARCHAR(100),
+    backing_token_name VARCHAR(100),
+    exchange_address VARCHAR(100),
+    exchange_name VARCHAR(100),
+    volume DECIMAL(18, 8),
+    liquidity DECIMAL(18, 8)
+);
+ALTER TABLE pairs ADD COLUMN network_id INT REFERENCES networks(id);
+ALTER TABLE pairs ADD COLUMN volume DECIMAL(18, 8)

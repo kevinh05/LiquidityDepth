@@ -1,0 +1,37 @@
+CREATE TABLE exchanges (
+    exchange_id SERIAL PRIMARY KEY,
+    name VARCHAR(100) UNIQUE NOT NULL
+);
+
+CREATE TABLE trading_pairs (
+    exchange_id INTEGER REFERENCES exchanges(exchange_id),
+    symbol VARCHAR(20) NOT NULL,
+    bid NUMERIC NOT NULL,
+    ask NUMERIC NOT NULL,
+    volume NUMERIC NOT NULL,
+    last_price NUMERIC,
+    bid_liquidity NUMERIC NOT NULL,
+    ask_liquidity NUMERIC NOT NULL,
+    total_liquidity NUMERIC NOT NULL,
+    recorded_at TIMESTAMPTZ DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (exchange_id, symbol)
+);
+CREATE TABLE ohlcv_data (
+    id SERIAL PRIMARY KEY,
+    exchange VARCHAR(50) NOT NULL,
+    symbol VARCHAR(20) NOT NULL,
+    open_price NUMERIC NOT NULL,
+    high_price NUMERIC NOT NULL,
+    low_price NUMERIC NOT NULL,
+    close_price NUMERIC NOT NULL,
+    volume NUMERIC NOT NULL,
+    timestamp TIMESTAMP NOT NULL,
+    recorded_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    liquidity NUMERIC,
+    UNIQUE(exchange, symbol, timestamp)
+);
+ALTER TABLE trading_pairs ADD COLUMN liquidity NUMERIC;
+ALTER TABLE exchanges ADD COLUMN type VARCHAR(20) CHECK (type IN ('centralized', 'decentralized')) NOT NULL;
+
+-- Index for faster queries by exchange and symbol
+CREATE INDEX idx_trading_pairs_exchange_symbol ON trading_pairs (exchange_id, symbol);

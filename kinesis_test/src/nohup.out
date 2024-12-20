@@ -1,0 +1,606 @@
+neww 10
+    Pair 1:
+      Pair Address: 0x60312d4ebbf3617d3d33841906b5868a86931cbd
+      Pair Fee: null
+      Backing Token Address: 0xdeaddeaddeaddeaddeaddeaddeaddeaddead0000
+      Backing Token Name: Metis Token
+      Exchange Address: 0x70f51d68d16e8f9e418441280342bd43ac9dff9f
+      Exchange Name: Netswap
+      Volume: 33197
+      Liquidity: 283244
+-----------------------------------
+    Pair 2:
+      Pair Address: 0x0724d37522585e87d27c802728e824862dc72861
+      Pair Fee: null
+      Backing Token Address: 0xea32a96608495e54156ae48931a7c20f0dcc1a21
+      Backing Token Name: USDC Token
+      Exchange Address: 0x70f51d68d16e8f9e418441280342bd43ac9dff9f
+      Exchange Name: Netswap
+      Volume: 1343
+      Liquidity: 18064
+-----------------------------------
+    Pair 3:
+      Pair Address: 0xc8ae82a0ab6ada2062b812827e1556c0fa448dd0
+      Pair Fee: null
+      Backing Token Address: 0x420000000000000000000000000000000000000a
+      Backing Token Name: Ether
+      Exchange Address: 0x70f51d68d16e8f9e418441280342bd43ac9dff9f
+      Exchange Name: Netswap
+      Volume: 951
+      Liquidity: 9790
+-----------------------------------
+    Pair 4:
+      Pair Address: 0x6b0ef40b2f08794fe280719fbc47aa42f4b16bab
+      Pair Fee: null
+      Backing Token Address: 0x096a84536ab84e68ee210561ffd3a038e79736f1
+      Backing Token Name: ENKI Protocol
+      Exchange Address: 0x70f51d68d16e8f9e418441280342bd43ac9dff9f
+      Exchange Name: Netswap
+      Volume: 1140
+      Liquidity: 31111
+-----------------------------------
+    Pair 5:
+      Pair Address: 0x7d02ab940d7dd2b771e59633bbc1ed6ec2b99af1
+      Pair Fee: null
+      Backing Token Address: 0xbb06dca3ae6887fabf931640f67cab3e3a16f4dc
+      Backing Token Name: USDT Token
+      Exchange Address: 0x70f51d68d16e8f9e418441280342bd43ac9dff9f
+      Exchange Name: Netswap
+      Volume: 5151
+      Liquidity: 30566
+-----------------------------------
+    Pair 6:
+      Pair Address: 0x3bf77b9192579826f260bc48f2214dfba840fce5
+      Pair Fee: null
+      Backing Token Address: 0x2692be44a6e38b698731fddf417d060f0d20a0cb
+      Backing Token Name: Poly-Peg BNB
+      Exchange Address: 0x70f51d68d16e8f9e418441280342bd43ac9dff9f
+      Exchange Name: Netswap
+      Volume: 83
+      Liquidity: 6630
+-----------------------------------
+    Pair 7:
+      Pair Address: 0xaba62fee1d5e00be0c95ede9b391deb5473619a6
+      Pair Fee: null
+      Backing Token Address: 0x75cb093e4d61d2a2e65d8e0bbb01de8d89b53481
+      Backing Token Name: Wrapped METIS
+      Exchange Address: 0x1a0d6fd1018c4c322423514c6c75bde771df1616
+      Exchange Name: null
+      Volume: 3
+      Liquidity: 11
+-----------------------------------
+    Pair 8:
+      Pair Address: 0x1f37cef26ff79ac7fc9c1328a54ff97fdf07ea34
+      Pair Fee: null
+      Backing Token Address: 0xfe282af5f9eb59c30a3f78789eeffa704188bdd4
+      Backing Token Name: Relay Token
+      Exchange Address: 0x70f51d68d16e8f9e418441280342bd43ac9dff9f
+      Exchange Name: Netswap
+      Volume: 1
+      Liquidity: 7
+-----------------------------------
+    Pair 9:
+      Pair Address: 0xb18cf847744406441a367ec9b6d5240ad7431e18
+      Pair Fee: null
+      Backing Token Address: 0xdeaddeaddeaddeaddeaddeaddeaddeaddead0000
+      Backing Token Name: Metis Token
+      Exchange Address: 0x2cdfb20205701ff01689461610c9f321d1d00f80
+      Exchange Name: Tethys
+      Volume: 0
+      Liquidity: 3
+-----------------------------------
+    Pair 10:
+      Pair Address: 0x83243c82ac6f4e3d8c2b2877af92e28f6d4a81f1
+      Pair Fee: null
+      Backing Token Address: 0xde9e9e39eea8cecfe1eaca8e6a64c8eb9e7665cd
+      Backing Token Name: Viserion Finance
+      Exchange Address: 0x70f51d68d16e8f9e418441280342bd43ac9dff9f
+      Exchange Name: Netswap
+      Volume: 1
+      Liquidity: 8
+-----------------------------------
+Fetching top tokens for network: Metis (ID: 1088)
+neww 10
+    Pair 1:
+      Pair Address: 0x60312d4ebbf3617d3d33841906b5868a86931cbd
+      Pair Fee: null
+      Backing Token Address: 0xdeaddeaddeaddeaddeaddeaddeaddeaddead0000
+      Backing Token Name: Metis Token
+      Exchange Address: 0x70f51d68d16e8f9e418441280342bd43ac9dff9f
+      Exchange Name: Netswap
+      Volume: 33197
+      Liquidity: 283244
+-----------------------------------
+    Pair 2:
+      Pair Address: 0x0724d37522585e87d27c802728e824862dc72861
+      Pair Fee: null
+      Backing Token Address: 0xea32a96608495e54156ae48931a7c20f0dcc1a21
+      Backing Token Name: USDC Token
+      Exchange Address: 0x70f51d68d16e8f9e418441280342bd43ac9dff9f
+      Exchange Name: Netswap
+      Volume: 1343
+      Liquidity: 18064
+-----------------------------------
+    Pair 3:
+      Pair Address: 0xc8ae82a0ab6ada2062b812827e1556c0fa448dd0
+      Pair Fee: null
+      Backing Token Address: 0x420000000000000000000000000000000000000a
+      Backing Token Name: Ether
+      Exchange Address: 0x70f51d68d16e8f9e418441280342bd43ac9dff9f
+      Exchange Name: Netswap
+      Volume: 951
+      Liquidity: 9790
+-----------------------------------
+    Pair 4:
+      Pair Address: 0x6b0ef40b2f08794fe280719fbc47aa42f4b16bab
+      Pair Fee: null
+      Backing Token Address: 0x096a84536ab84e68ee210561ffd3a038e79736f1
+      Backing Token Name: ENKI Protocol
+      Exchange Address: 0x70f51d68d16e8f9e418441280342bd43ac9dff9f
+      Exchange Name: Netswap
+      Volume: 1140
+      Liquidity: 31111
+-----------------------------------
+    Pair 5:
+      Pair Address: 0x7d02ab940d7dd2b771e59633bbc1ed6ec2b99af1
+      Pair Fee: null
+      Backing Token Address: 0xbb06dca3ae6887fabf931640f67cab3e3a16f4dc
+      Backing Token Name: USDT Token
+      Exchange Address: 0x70f51d68d16e8f9e418441280342bd43ac9dff9f
+      Exchange Name: Netswap
+      Volume: 5151
+      Liquidity: 30566
+-----------------------------------
+    Pair 6:
+      Pair Address: 0x3bf77b9192579826f260bc48f2214dfba840fce5
+      Pair Fee: null
+      Backing Token Address: 0x2692be44a6e38b698731fddf417d060f0d20a0cb
+      Backing Token Name: Poly-Peg BNB
+      Exchange Address: 0x70f51d68d16e8f9e418441280342bd43ac9dff9f
+      Exchange Name: Netswap
+      Volume: 83
+      Liquidity: 6630
+-----------------------------------
+    Pair 7:
+      Pair Address: 0xaba62fee1d5e00be0c95ede9b391deb5473619a6
+      Pair Fee: null
+      Backing Token Address: 0x75cb093e4d61d2a2e65d8e0bbb01de8d89b53481
+      Backing Token Name: Wrapped METIS
+      Exchange Address: 0x1a0d6fd1018c4c322423514c6c75bde771df1616
+      Exchange Name: null
+      Volume: 3
+      Liquidity: 11
+-----------------------------------
+    Pair 8:
+      Pair Address: 0x1f37cef26ff79ac7fc9c1328a54ff97fdf07ea34
+      Pair Fee: null
+      Backing Token Address: 0xfe282af5f9eb59c30a3f78789eeffa704188bdd4
+      Backing Token Name: Relay Token
+      Exchange Address: 0x70f51d68d16e8f9e418441280342bd43ac9dff9f
+      Exchange Name: Netswap
+      Volume: 1
+      Liquidity: 7
+-----------------------------------
+    Pair 9:
+      Pair Address: 0xb18cf847744406441a367ec9b6d5240ad7431e18
+      Pair Fee: null
+      Backing Token Address: 0xdeaddeaddeaddeaddeaddeaddeaddeaddead0000
+      Backing Token Name: Metis Token
+      Exchange Address: 0x2cdfb20205701ff01689461610c9f321d1d00f80
+      Exchange Name: Tethys
+      Volume: 0
+      Liquidity: 3
+-----------------------------------
+    Pair 10:
+      Pair Address: 0x83243c82ac6f4e3d8c2b2877af92e28f6d4a81f1
+      Pair Fee: null
+      Backing Token Address: 0xde9e9e39eea8cecfe1eaca8e6a64c8eb9e7665cd
+      Backing Token Name: Viserion Finance
+      Exchange Address: 0x70f51d68d16e8f9e418441280342bd43ac9dff9f
+      Exchange Name: Netswap
+      Volume: 1
+      Liquidity: 8
+-----------------------------------
+neww 10
+    Pair 1:
+      Pair Address: 0x60312d4ebbf3617d3d33841906b5868a86931cbd
+      Pair Fee: null
+      Backing Token Address: 0xdeaddeaddeaddeaddeaddeaddeaddeaddead0000
+      Backing Token Name: Metis Token
+      Exchange Address: 0x70f51d68d16e8f9e418441280342bd43ac9dff9f
+      Exchange Name: Netswap
+      Volume: 33197
+      Liquidity: 283244
+-----------------------------------
+    Pair 2:
+      Pair Address: 0x0724d37522585e87d27c802728e824862dc72861
+      Pair Fee: null
+      Backing Token Address: 0xea32a96608495e54156ae48931a7c20f0dcc1a21
+      Backing Token Name: USDC Token
+      Exchange Address: 0x70f51d68d16e8f9e418441280342bd43ac9dff9f
+      Exchange Name: Netswap
+      Volume: 1343
+      Liquidity: 18064
+-----------------------------------
+    Pair 3:
+      Pair Address: 0xc8ae82a0ab6ada2062b812827e1556c0fa448dd0
+      Pair Fee: null
+      Backing Token Address: 0x420000000000000000000000000000000000000a
+      Backing Token Name: Ether
+      Exchange Address: 0x70f51d68d16e8f9e418441280342bd43ac9dff9f
+      Exchange Name: Netswap
+      Volume: 951
+      Liquidity: 9790
+-----------------------------------
+    Pair 4:
+      Pair Address: 0x6b0ef40b2f08794fe280719fbc47aa42f4b16bab
+      Pair Fee: null
+      Backing Token Address: 0x096a84536ab84e68ee210561ffd3a038e79736f1
+      Backing Token Name: ENKI Protocol
+      Exchange Address: 0x70f51d68d16e8f9e418441280342bd43ac9dff9f
+      Exchange Name: Netswap
+      Volume: 1140
+      Liquidity: 31111
+-----------------------------------
+    Pair 5:
+      Pair Address: 0x7d02ab940d7dd2b771e59633bbc1ed6ec2b99af1
+      Pair Fee: null
+      Backing Token Address: 0xbb06dca3ae6887fabf931640f67cab3e3a16f4dc
+      Backing Token Name: USDT Token
+      Exchange Address: 0x70f51d68d16e8f9e418441280342bd43ac9dff9f
+      Exchange Name: Netswap
+      Volume: 5151
+      Liquidity: 30566
+-----------------------------------
+    Pair 6:
+      Pair Address: 0x3bf77b9192579826f260bc48f2214dfba840fce5
+      Pair Fee: null
+      Backing Token Address: 0x2692be44a6e38b698731fddf417d060f0d20a0cb
+      Backing Token Name: Poly-Peg BNB
+      Exchange Address: 0x70f51d68d16e8f9e418441280342bd43ac9dff9f
+      Exchange Name: Netswap
+      Volume: 83
+      Liquidity: 6630
+-----------------------------------
+    Pair 7:
+      Pair Address: 0xaba62fee1d5e00be0c95ede9b391deb5473619a6
+      Pair Fee: null
+      Backing Token Address: 0x75cb093e4d61d2a2e65d8e0bbb01de8d89b53481
+      Backing Token Name: Wrapped METIS
+      Exchange Address: 0x1a0d6fd1018c4c322423514c6c75bde771df1616
+      Exchange Name: null
+      Volume: 3
+      Liquidity: 11
+-----------------------------------
+    Pair 8:
+      Pair Address: 0x1f37cef26ff79ac7fc9c1328a54ff97fdf07ea34
+      Pair Fee: null
+      Backing Token Address: 0xfe282af5f9eb59c30a3f78789eeffa704188bdd4
+      Backing Token Name: Relay Token
+      Exchange Address: 0x70f51d68d16e8f9e418441280342bd43ac9dff9f
+      Exchange Name: Netswap
+      Volume: 1
+      Liquidity: 7
+-----------------------------------
+    Pair 9:
+      Pair Address: 0xb18cf847744406441a367ec9b6d5240ad7431e18
+      Pair Fee: null
+      Backing Token Address: 0xdeaddeaddeaddeaddeaddeaddeaddeaddead0000
+      Backing Token Name: Metis Token
+      Exchange Address: 0x2cdfb20205701ff01689461610c9f321d1d00f80
+      Exchange Name: Tethys
+      Volume: 0
+      Liquidity: 3
+-----------------------------------
+    Pair 10:
+      Pair Address: 0x83243c82ac6f4e3d8c2b2877af92e28f6d4a81f1
+      Pair Fee: null
+      Backing Token Address: 0xde9e9e39eea8cecfe1eaca8e6a64c8eb9e7665cd
+      Backing Token Name: Viserion Finance
+      Exchange Address: 0x70f51d68d16e8f9e418441280342bd43ac9dff9f
+      Exchange Name: Netswap
+      Volume: 1
+      Liquidity: 8
+-----------------------------------
+  Token: Hera Token (Address: 0x6f05709bc91bad933346f9e159f0d3fdbc2c9dce)
+    Pair 1:
+    NetworkId 1088:
+      Pair Address: 0x948f9614628d761f86b672f134fc273076c4d623
+      Pair Fee: null
+      Backing Token Address: 0xea32a96608495e54156ae48931a7c20f0dcc1a21
+      Backing Token Name: USDC Token
+      Exchange Address: 0x70f51d68d16e8f9e418441280342bd43ac9dff9f
+      Exchange Name: Netswap
+      Volume: 22249
+      Liquidity: 151226
+-----------------------------------
+    Pair 2:
+    NetworkId 1088:
+      Pair Address: 0x43be363bbb16543d3b205175b4a976084aec4867
+      Pair Fee: null
+      Backing Token Address: 0xea32a96608495e54156ae48931a7c20f0dcc1a21
+      Backing Token Name: USDC Token
+      Exchange Address: 0xc5bfa92f27df36d268422ee314a1387bb5ffb06a
+      Exchange Name: HerculesDEX
+      Volume: 9102
+      Liquidity: 62379
+-----------------------------------
+    Pair 3:
+    NetworkId 1088:
+      Pair Address: 0x2ec44156c07e847ba37bc21eb0ed2ec485c26259
+      Pair Fee: null
+      Backing Token Address: 0xdeaddeaddeaddeaddeaddeaddeaddeaddead0000
+      Backing Token Name: Metis Token
+      Exchange Address: 0x70f51d68d16e8f9e418441280342bd43ac9dff9f
+      Exchange Name: Netswap
+      Volume: 0
+      Liquidity: 9
+-----------------------------------
+    Pair 4:
+    NetworkId 1088:
+      Pair Address: 0xa33d8196259e05704d24ed8f7ce5b56699fddc62
+      Pair Fee: null
+      Backing Token Address: 0xdeaddeaddeaddeaddeaddeaddeaddeaddead0000
+      Backing Token Name: Metis Token
+      Exchange Address: 0x633a093c9e94f64500fc8fcbb48e90dd52f6668f
+      Exchange Name: Hermes
+      Volume: 0
+      Liquidity: 252
+-----------------------------------
+    Pair 5:
+    NetworkId 1088:
+      Pair Address: 0x2b285cd18d11d4656463a45f78431d16dfd08138
+      Pair Fee: null
+      Backing Token Address: 0xea32a96608495e54156ae48931a7c20f0dcc1a21
+      Backing Token Name: USDC Token
+      Exchange Address: 0x633a093c9e94f64500fc8fcbb48e90dd52f6668f
+      Exchange Name: Hermes
+      Volume: 0
+      Liquidity: 565
+-----------------------------------
+    Pair 6:
+    NetworkId 1088:
+      Pair Address: 0xf1abf522443a014784d6ed98b2f02df2af52734f
+      Pair Fee: null
+      Backing Token Address: 0xbb06dca3ae6887fabf931640f67cab3e3a16f4dc
+      Backing Token Name: USDT Token
+      Exchange Address: 0x633a093c9e94f64500fc8fcbb48e90dd52f6668f
+      Exchange Name: Hermes
+      Volume: 0
+      Liquidity: 0
+-----------------------------------
+    Pair 7:
+    NetworkId 1088:
+      Pair Address: 0x58434e27ef11ed93970c6032264f5d1637e27aba
+      Pair Fee: null
+      Backing Token Address: 0xbb06dca3ae6887fabf931640f67cab3e3a16f4dc
+      Backing Token Name: USDT Token
+      Exchange Address: 0x70f51d68d16e8f9e418441280342bd43ac9dff9f
+      Exchange Name: Netswap
+      Volume: 0
+      Liquidity: 0
+-----------------------------------
+    Pair 8:
+    NetworkId 1088:
+      Pair Address: 0x01a445506236701e3f495777e075617ebdb8f383
+      Pair Fee: 10000
+      Backing Token Address: 0xdeaddeaddeaddeaddeaddeaddeaddeaddead0000
+      Backing Token Name: Metis Token
+      Exchange Address: 0xf5fd18cd5325904cc7141cb9daca1f2f964b9927
+      Exchange Name: null
+      Volume: 0
+      Liquidity: 0
+-----------------------------------
+  Token: Netswap Token (Address: 0x90fe084f877c65e1b577c7b2ea64b8d8dd1ab278)
+neww 10
+    Pair 1:
+      Pair Address: 0x60312d4ebbf3617d3d33841906b5868a86931cbd
+      Pair Fee: null
+      Backing Token Address: 0xdeaddeaddeaddeaddeaddeaddeaddeaddead0000
+      Backing Token Name: Metis Token
+      Exchange Address: 0x70f51d68d16e8f9e418441280342bd43ac9dff9f
+      Exchange Name: Netswap
+      Volume: 33197
+      Liquidity: 283244
+-----------------------------------
+    Pair 2:
+      Pair Address: 0x0724d37522585e87d27c802728e824862dc72861
+      Pair Fee: null
+      Backing Token Address: 0xea32a96608495e54156ae48931a7c20f0dcc1a21
+      Backing Token Name: USDC Token
+      Exchange Address: 0x70f51d68d16e8f9e418441280342bd43ac9dff9f
+      Exchange Name: Netswap
+      Volume: 1343
+      Liquidity: 18064
+-----------------------------------
+    Pair 3:
+      Pair Address: 0xc8ae82a0ab6ada2062b812827e1556c0fa448dd0
+      Pair Fee: null
+      Backing Token Address: 0x420000000000000000000000000000000000000a
+      Backing Token Name: Ether
+      Exchange Address: 0x70f51d68d16e8f9e418441280342bd43ac9dff9f
+      Exchange Name: Netswap
+      Volume: 951
+      Liquidity: 9790
+-----------------------------------
+    Pair 4:
+      Pair Address: 0x6b0ef40b2f08794fe280719fbc47aa42f4b16bab
+      Pair Fee: null
+      Backing Token Address: 0x096a84536ab84e68ee210561ffd3a038e79736f1
+      Backing Token Name: ENKI Protocol
+      Exchange Address: 0x70f51d68d16e8f9e418441280342bd43ac9dff9f
+      Exchange Name: Netswap
+      Volume: 1140
+      Liquidity: 31111
+-----------------------------------
+    Pair 5:
+      Pair Address: 0x7d02ab940d7dd2b771e59633bbc1ed6ec2b99af1
+      Pair Fee: null
+      Backing Token Address: 0xbb06dca3ae6887fabf931640f67cab3e3a16f4dc
+      Backing Token Name: USDT Token
+      Exchange Address: 0x70f51d68d16e8f9e418441280342bd43ac9dff9f
+      Exchange Name: Netswap
+      Volume: 5151
+      Liquidity: 30566
+-----------------------------------
+    Pair 6:
+      Pair Address: 0x3bf77b9192579826f260bc48f2214dfba840fce5
+      Pair Fee: null
+      Backing Token Address: 0x2692be44a6e38b698731fddf417d060f0d20a0cb
+      Backing Token Name: Poly-Peg BNB
+      Exchange Address: 0x70f51d68d16e8f9e418441280342bd43ac9dff9f
+      Exchange Name: Netswap
+      Volume: 83
+      Liquidity: 6630
+-----------------------------------
+    Pair 7:
+      Pair Address: 0xaba62fee1d5e00be0c95ede9b391deb5473619a6
+      Pair Fee: null
+      Backing Token Address: 0x75cb093e4d61d2a2e65d8e0bbb01de8d89b53481
+      Backing Token Name: Wrapped METIS
+      Exchange Address: 0x1a0d6fd1018c4c322423514c6c75bde771df1616
+      Exchange Name: null
+      Volume: 3
+      Liquidity: 11
+-----------------------------------
+    Pair 8:
+      Pair Address: 0x1f37cef26ff79ac7fc9c1328a54ff97fdf07ea34
+      Pair Fee: null
+      Backing Token Address: 0xfe282af5f9eb59c30a3f78789eeffa704188bdd4
+      Backing Token Name: Relay Token
+      Exchange Address: 0x70f51d68d16e8f9e418441280342bd43ac9dff9f
+      Exchange Name: Netswap
+      Volume: 1
+      Liquidity: 7
+-----------------------------------
+    Pair 9:
+      Pair Address: 0xb18cf847744406441a367ec9b6d5240ad7431e18
+      Pair Fee: null
+      Backing Token Address: 0xdeaddeaddeaddeaddeaddeaddeaddeaddead0000
+      Backing Token Name: Metis Token
+      Exchange Address: 0x2cdfb20205701ff01689461610c9f321d1d00f80
+      Exchange Name: Tethys
+      Volume: 0
+      Liquidity: 3
+-----------------------------------
+    Pair 10:
+      Pair Address: 0x83243c82ac6f4e3d8c2b2877af92e28f6d4a81f1
+      Pair Fee: null
+      Backing Token Address: 0xde9e9e39eea8cecfe1eaca8e6a64c8eb9e7665cd
+      Backing Token Name: Viserion Finance
+      Exchange Address: 0x70f51d68d16e8f9e418441280342bd43ac9dff9f
+      Exchange Name: Netswap
+      Volume: 1
+      Liquidity: 8
+-----------------------------------
+    Pair 1:
+    NetworkId 1088:
+      Pair Address: 0x60312d4ebbf3617d3d33841906b5868a86931cbd
+      Pair Fee: null
+      Backing Token Address: 0xdeaddeaddeaddeaddeaddeaddeaddeaddead0000
+      Backing Token Name: Metis Token
+      Exchange Address: 0x70f51d68d16e8f9e418441280342bd43ac9dff9f
+      Exchange Name: Netswap
+      Volume: 33197
+      Liquidity: 283244
+-----------------------------------
+    Pair 2:
+    NetworkId 1088:
+      Pair Address: 0x0724d37522585e87d27c802728e824862dc72861
+      Pair Fee: null
+      Backing Token Address: 0xea32a96608495e54156ae48931a7c20f0dcc1a21
+      Backing Token Name: USDC Token
+      Exchange Address: 0x70f51d68d16e8f9e418441280342bd43ac9dff9f
+      Exchange Name: Netswap
+      Volume: 1343
+      Liquidity: 18064
+-----------------------------------
+    Pair 3:
+    NetworkId 1088:
+      Pair Address: 0xc8ae82a0ab6ada2062b812827e1556c0fa448dd0
+      Pair Fee: null
+      Backing Token Address: 0x420000000000000000000000000000000000000a
+      Backing Token Name: Ether
+      Exchange Address: 0x70f51d68d16e8f9e418441280342bd43ac9dff9f
+      Exchange Name: Netswap
+      Volume: 951
+      Liquidity: 9790
+-----------------------------------
+    Pair 4:
+    NetworkId 1088:
+      Pair Address: 0x6b0ef40b2f08794fe280719fbc47aa42f4b16bab
+      Pair Fee: null
+      Backing Token Address: 0x096a84536ab84e68ee210561ffd3a038e79736f1
+      Backing Token Name: ENKI Protocol
+      Exchange Address: 0x70f51d68d16e8f9e418441280342bd43ac9dff9f
+      Exchange Name: Netswap
+      Volume: 1140
+      Liquidity: 31111
+-----------------------------------
+    Pair 5:
+    NetworkId 1088:
+      Pair Address: 0x7d02ab940d7dd2b771e59633bbc1ed6ec2b99af1
+      Pair Fee: null
+      Backing Token Address: 0xbb06dca3ae6887fabf931640f67cab3e3a16f4dc
+      Backing Token Name: USDT Token
+      Exchange Address: 0x70f51d68d16e8f9e418441280342bd43ac9dff9f
+      Exchange Name: Netswap
+      Volume: 5151
+      Liquidity: 30566
+-----------------------------------
+    Pair 6:
+    NetworkId 1088:
+      Pair Address: 0x3bf77b9192579826f260bc48f2214dfba840fce5
+      Pair Fee: null
+      Backing Token Address: 0x2692be44a6e38b698731fddf417d060f0d20a0cb
+      Backing Token Name: Poly-Peg BNB
+      Exchange Address: 0x70f51d68d16e8f9e418441280342bd43ac9dff9f
+      Exchange Name: Netswap
+      Volume: 83
+      Liquidity: 6630
+-----------------------------------
+    Pair 7:
+    NetworkId 1088:
+      Pair Address: 0xaba62fee1d5e00be0c95ede9b391deb5473619a6
+      Pair Fee: null
+      Backing Token Address: 0x75cb093e4d61d2a2e65d8e0bbb01de8d89b53481
+      Backing Token Name: Wrapped METIS
+      Exchange Address: 0x1a0d6fd1018c4c322423514c6c75bde771df1616
+      Exchange Name: null
+      Volume: 3
+      Liquidity: 11
+-----------------------------------
+    Pair 8:
+    NetworkId 1088:
+      Pair Address: 0x1f37cef26ff79ac7fc9c1328a54ff97fdf07ea34
+      Pair Fee: null
+      Backing Token Address: 0xfe282af5f9eb59c30a3f78789eeffa704188bdd4
+      Backing Token Name: Relay Token
+      Exchange Address: 0x70f51d68d16e8f9e418441280342bd43ac9dff9f
+      Exchange Name: Netswap
+      Volume: 1
+      Liquidity: 7
+-----------------------------------
+    Pair 9:
+    NetworkId 1088:
+      Pair Address: 0xb18cf847744406441a367ec9b6d5240ad7431e18
+      Pair Fee: null
+      Backing Token Address: 0xdeaddeaddeaddeaddeaddeaddeaddeaddead0000
+      Backing Token Name: Metis Token
+      Exchange Address: 0x2cdfb20205701ff01689461610c9f321d1d00f80
+      Exchange Name: Tethys
+      Volume: 0
+      Liquidity: 3
+-----------------------------------
+    Pair 10:
+    NetworkId 1088:
+      Pair Address: 0x83243c82ac6f4e3d8c2b2877af92e28f6d4a81f1
+      Pair Fee: null
+      Backing Token Address: 0xde9e9e39eea8cecfe1eaca8e6a64c8eb9e7665cd
+      Backing Token Name: Viserion Finance
+      Exchange Address: 0x70f51d68d16e8f9e418441280342bd43ac9dff9f
+      Exchange Name: Netswap
+      Volume: 1
+      Liquidity: 8
+-----------------------------------
+  Token: Bees (Address: 0x83534703001938b89eeaf26311264fc5585df470)

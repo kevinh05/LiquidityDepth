@@ -1,0 +1,89 @@
+import asyncio
+import ccxt
+import psycopg2
+from psycopg2.extras import execute_values
+from datetime import datetime
+
+# Database connection configuration
+DB_CONFIG = {
+    'dbname': 'your_db_name',
+    'user': 'your_user',
+    'password': 'your_password',
+    'host': 'your_host',
+    'port': 'your_port'
+}
+
+# Function to connect to the PostgreSQL database
+def get_db_connection():
+    return psycopg2.connect(**DB_CONFIG)
+
+# Function to insert or update trading pair data
+def upsert_trading_pairs(data):
+    query = """
+        INSERT INTO trading_pairs (exchange_id, symbol, bid, ask, volume, last_price, bid_liquidity, ask_liquidity, total_liquidity, recorded_at)
+        VALUES %s
+        ON CONFLICT (exchange_id, symbol) DO UPDATE SET
+            bid = EXCLUDED.bid,
+            ask = EXCLUDED.ask,
+            volume = EXCLUDED.volume,
+            last_price = EXCLUDED.last_price,
+            bid_liquidity = EXCLUDED.bid_liquidity,
+            ask_liquidity = EXCLUDED.ask_liquidity,
+            total_liquidity = EXCLUDED.total_liquidity,
+            recorded_at = EXCLUDED.recorded_at;
+    """
+    conn = get_db_connection()
+    try:
+        with conn.cursor() as cur:
+            execute_values(cur, query, data)
+        conn.commit()
+    except Exception as e:
+        print(f"Error updating trading pairs: {e}")
+    finally:
+        conn.close()
+
+# Function to fetch data from CEX using ccxt
+async def fetch_cex_data():
+    exchange_ids = ["binanceus", "kraken", "coinbase"]
+    data = []
+    for exchange_id in exchange_ids:
+        try:
+            exchange_class = getattr(ccxt, exchange_id)
+            exchange = exchange_class({'enableRateLimit': True})
+            markets = exchange.load_markets()
+            for symbol, market in markets.items():
+                if not market['active']:
+                    continue
+                ticker = exchange.fetch_ticker(symbol)
+                order_book = exchange.fetch_order_book(symbol)
+                bids = order_book.get('bids', [])
+                asks = order_book.get('asks', [])
+                current_price = ticker.get('last')
+                bid_liquidity = sum(volume for item in bids if len(item) >= 2 for price, volume in [item] if price >= current_price * 0.99) if current_price else 0
+                ask_liquidity = sum(volume for item in asks if len(item) >= 2 for price, volume in [item] if price <= current_price * 1.01) if current_price else 0
+                total_liquidity = bid_liquidity + ask_liquidity
+                data.append((exchange_id, symbol, ticker.get('bid'), ticker.get('ask'), ticker.get('baseVolume'), ticker.get('last'), bid_liquidity, ask_liquidity, total_liquidity, datetime.utcnow()))
+        except Exception as e:
+            print(f"Error fetching data from {exchange_id}: {e}")
+    return data
+
+# Function to fetch data from DEX (dummy function for illustration)
+async def fetch_dex_data():
+    # Replace this with actual DEX data fetching logic
+    # Here we assume data format is similar to CEX for consistency
+    data = [
+        ("uniswap", "ETH/USDT", 3000, 3010, 5000, 3005, 1000, 950, 1950, datetime.utcnow())
+    ]
+    return data
+
+# Main function to fetch data and update the database
+async def update_liquidity_data():
+    cex_data = await fetch_cex_data()
+    dex_data = await fetch_dex_data()
+    all_data = cex_data + dex_data
+    upsert_trading_pairs(all_data)
+
+# Run the script every hour
+if __name__ == "__main__":
+    loop = asyncio.get_event_loop()
+    loop.run_until_complete(update_liquidity_data())

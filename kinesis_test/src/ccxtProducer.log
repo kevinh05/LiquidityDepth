@@ -1,0 +1,1949 @@
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'c0014ff7-27f8-6f74-9fd4-52eec2ac8b36',
+    extendedRequestId: 'uKit8AsuVXuwqC/jOujCBqS0y6qVXrxaeZhjA+2rguzxkryXhWlClMbh1YQQhLUezerqMj/HdeKPxzms2B/xCkeqgz4nWIDu',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416455402411590230718019588669308930',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416455402414008082357248847018721282',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416455402415217008176863476193427458',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'd6e6b1fb-25ae-a465-8933-aca9bf2bb0d3',
+    extendedRequestId: 'FS0fiDMcOnTHvaMjMK8Rtf5U7YNFgVwkHrHuysS/Siua0SElGVeTLVcD9ZaOQK6znB/2GK2jeIWu7BZimWWLXAPalNaNEPwkpXdgmjXKi6o=',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416455414512937685060461544488304642',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416455414515355536699690802837716994',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416455414516564462519305432012423170',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'f0985872-1322-d72f-af4d-45fc095b0735',
+    extendedRequestId: 'WS99Mza3VK/KvN2CwU6agT56i1WFQUHO7xUzZragOoJMguXQHXjtvaAEymV7FN+JfySU/KdKotR1lvHMkRsNpqtZk8wkTgJiCfW3P/CabwY=',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416455427314253188959773998620606466',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416455427315462114779388627795312642',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416455427316671040599003256970018818',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'd28c7c21-f4e3-8117-8d59-61eb619452e6',
+    extendedRequestId: '3RZSKkgZVgic6Xx+vcDb891UNO369B1CJNrhrYnaSxtWG2PIEFCO0g6sv7owSVXLU3AyBdJDahY8OLmXHPv4D9leJlGYssdFxnfhzVEc3Q4=',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416455439768606982629687810892759042',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416455439769815908449302440067465218',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416455439771024834268917069242171394',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'f8fe79ca-e606-e2dc-a72b-67cc1d2e5074',
+    extendedRequestId: 'AkOrAJVSz0JW1KbH/8qieumJDwMdNQdQ+oI1YcLUaOJJvAZU+yd+esnN82A7eALM4JrV9LHLxgUHsHPq4yK37G9KiA9A0qnB',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416455452041621903357407384397938690',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416455452042830829177022013572644866',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416455452044039754996636642747351042',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Error fetching from gemini: NetworkError: gemini GET https://api.gemini.com/v2/candles/btcusdt/1m fetch failed
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'eebe529d-7b35-43f6-b16b-4cdf629cad14',
+    extendedRequestId: 'bFtVStnAB9troUfZ0esd2m6peRLUq4Vng+v6EcnDY9YOTewBmO2LDvQ5HItgBEmVrhBpzvWe7TXegld0YlJuZ4vbB7co7j1I6Oqtc0fZ1Ek=',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416455465029111983477372662715514882',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416455465030320909296987291890221058',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 2 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'fbc02567-1882-8942-a415-3b19efcec467',
+    extendedRequestId: 'odIQ3ysU0ABMZiFNg1HL8+JXDylKMwUteXP6gRv4xpxhJxRPP9gdzxdDaRNEmPJSqQcvwtBAOcnCra3yuEe1RGKo4fS0Qict',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416455477844934597212060666944290818',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416455477846143523031675296118996994',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416455477847352448851289925293703170',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'e3d7253e-4561-c959-bc02-3b840ea157ec',
+    extendedRequestId: 'XUGp2blQF2XsKPGiSSBdKlUmcHy7s4k3FAAlcmoPZ+vToyCWGZi1sl9UyhVXlErs8QB2cEaZtiRMOBpRBzxKugPkD8SoiMmId+P6LFACQHA=',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416455490774396237990523882314924034',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416455490775605163810138511489630210',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416455490776814089629753140664336386',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'cf51ae21-7dee-094a-9084-b0d79e5cb32b',
+    extendedRequestId: 'XUO9Rx8lmu7W1tIS/wZXFSPxmykftsyA7izJb2u68MYkblFXvlCvmgXD5rGTnEwM8Mfh4248xhiiPkelprq7k9kjWfCjqsK1',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416455503133244891910882058504765442',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416455503134453817730496687679471618',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416455503135662743550111316854177794',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Error fetching from gemini: NetworkError: gemini GET https://api.gemini.com/v2/candles/btcusdt/1m fetch failed
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'd2098693-14ad-79d5-8ddc-99a153b6d970',
+    extendedRequestId: '10egLJLDR2wansE7rx+gp/Gkd4uJoFn/rNPyprdWOxZerGBwJlWZqzDag5tBG+OXweQFlCxtaiUyKVrZozXk4TFTHjA9awzK',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416455515917635434335589704191180802',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416455515918844360155204333365886978',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 2 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'daef4dc0-1882-8732-853a-52ae93fa6eed',
+    extendedRequestId: 'rKgaK+u0FX949WhbjbCewUiFh0cLNgiH8CWzcrzj58FWNQ61FlZAXbkIv0rEaI8OBAZSa5NMJJLJaFq30qITuE5qIwiqzpvGoVSEmYW9r6A=',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416455528628281501763804970220519426',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416455528629490427583419599395225602',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416455528630699353403034228569931778',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'fce73b35-8581-d0ea-a332-249f6294b2dd',
+    extendedRequestId: 'QpqxwWRYSgltFp9Oc6N/6CG75NUh+ZLWpJgHOTrLdeHafhYCtrCVYavwBAHC+VWna9w3CNTwk+86/+V0eueuGKH3G1epNIGLCMiGItMGJkI=',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416455541389702453615834661587517442',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416455541392120305255063919936929794',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416455541393329231074678549111635970',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'd9a17019-8f33-9416-8674-6fff928d7d2d',
+    extendedRequestId: 'sg2I+S0CR4V5ieaQCVR0hLRvkMoPTgfkD1Y7Tgep04oWqum1ritLq6k+U/B13dUy4+4ivrOUnAt5zped4Lx9xQs7gJx1Z80RpPEN4FJi1m8=',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416455554142660924730561880012095490',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416455554146287702189405767536214018',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416455554147496628009020396710920194',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Error fetching from gemini: NetworkError: gemini GET https://api.gemini.com/v2/candles/btcusdt/1m fetch failed
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'ed6cc506-0ca2-edfe-b2b9-e524f25ed4b9',
+    extendedRequestId: 'N5bog9dEgobnDA5LMFqE1eiTniNpzB9wqe0+Jk24WpWiFhTpJX+YJKVyYmEihhAqyQU+vi8nT5HiXDlymtn91mqSr/OA+Cxp',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416455566956065686826020625891459074',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416455566957274612645635255066165250',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 2 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'f370cf99-dd69-53a9-aca5-efc6042b549d',
+    extendedRequestId: '0O6GTyV5f4+g51qNCF00eCi2Q1BFUw6CnTDqW/cyhhS0FxFr6CfRiwmfpS+3dySg2GVTfMwrOm6hPhbEAQcs9CO5f7t+u5rUETJv/bYSOOc=',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416455579939928989487142154123870210',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416455579941137915306756783298576386',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416455579942346841126371412473282562',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'df4481d7-5574-0dda-8091-a14c97865fc1',
+    extendedRequestId: 'JZRak4PwY5j9/xfQ8ul0BkwgV6cxzafD801uxNA4at8+kiPE3pW/pWgW2YdsqdTjzu72uixFf9PaH6nC9mCOOPgkmx1b/v2bKVrFVh8I+9k=',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416455592996327841325141364119175170',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416455592997536767144755993293881346',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416455592998745692964370622468587522',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'e374acea-c040-7b2a-bca1-8c3d67df6c93',
+    extendedRequestId: 'lrFFXNkcFkkbtpx+c8cRE1NY+VUHPa61JuLV9kwkogbwPKPjE8NkVXjkk95OE06sEnukVu6Wq95W/UerzglGus3M1gRBesGJ6cwPktUdt7I=',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416455605691257873098366450877333506',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416455605692466798917981080052039682',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416455605693675724737595709226745858',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'df8f9b2c-1af2-99ab-805a-ba3f76d6b5b7',
+    extendedRequestId: 'vMPPPmUMdOqX2BYR9aw8CtWe6iRaPlamHsc7nHUz+XZGJSXX1GTrooZPy8FMreYClibNBhH1PHt1SiQa0S9hu4W2SbGzGy6LqtkrzNQH0aQ=',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416455618232654325780533701167284226',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416455618233863251600148330341990402',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416455618235072177419762959516696578',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'd627dcde-2830-c99a-89f2-fd910468a060',
+    extendedRequestId: 'xsYe/no3Q5MPXtqX21ra/lJHyBIsh4xxa0mut+4KWfaFD81ThjTGcww7BH/pY5YRU/iDEpUf8znmHp2CH4skwwzl6M8OtC+OxeWy5vUaWnI=',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416455648153568361242609829594267650',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416455648154777287062224458768973826',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416455648155986212881839087943680002',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'e5c90d8c-1b42-1fc3-ba1c-2c07e4d13b66',
+    extendedRequestId: '5zSPvhQNHEhJ9GbmqGfqnf6lSdtp+33OD04YoJUjelc9oJoPYdxgJmfE6dFqMax5dGWgL1SV3BEBA6LPTxl6w2+GhpAVCOG6',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416455682621252404275306352810655746',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416455682623670255914535611160068098',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416455682624879181734150240334774274',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'feacc8e3-edbf-c90f-a179-e924329df27e',
+    extendedRequestId: '0+blHjb9yB19LtPddiukCWi6gSb+jldRAnecHbdjdA46guMykIXJdhQSx5euWRZDXY7+CPvHvS4ZCgUwyvhazj38f2iag9hxkrw7yMFFW64=',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416455716126631494894758052960927746',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416455716130258272353601940485046274',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416455716131467198173216569659752450',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'd50fccb5-8c5e-4d0b-8ada-eeb6b28a842e',
+    extendedRequestId: 'btQZ2oODJ4aokvmOCVw6zexswqISxhA84Ey6m2c9iL2EytLP4CyoK3wAFxM1TRbUXOmQPwNbd2rVLPFAzi95Yd5dRls0Ud6q',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416455748988862049479226963448037378',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416455748990070975298841592622743554',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416455748991279901118456221797449730',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'da8f8453-5fae-fcf3-855a-a66cfbf4705a',
+    extendedRequestId: 'VoWiJzP0fgT10Des+BTM3zozqMlvh6XJCPUyA1BvXYXSkKnsc9xbBLu13b1QHCsC+Uly/sFP48eQi8VcT2VpnRHhmM/qjrUG',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416455782887142031473433282816770050',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416455782889559883112662541166182402',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416455782890768808932277170340888578',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'f131fc12-1cf4-2ea0-aee4-de69212de21a',
+    extendedRequestId: '/g4v6fD/oqBoRuFgFWzjI708UFYny/5jzRwazprju6R8eYAln6iUszGZbilrKvM1utuqfaLLmbCzOhvlyIulF4EUbln1BYn9MPtbEd7alt4=',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416455815665956704504492780249153538',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416455815668374556143722038598565890',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416455815669583481963336667773272066',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'cada3b33-0612-648f-950f-1984b9a8f048',
+    extendedRequestId: 'VkV3HGOkAfcLmulMTi0Yf+32SxS1B2XAnZgkr4ymu5h7unHrs2a0Q9C6/148sdh5+0N1GTSPO4YlHhoIw4j67IXgs2fe6gI/',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416455850076821234015301732254351362',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416455850078030159834916361429057538',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416455850079239085654530990603763714',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'dffc5261-8f7f-c15e-8029-7092c6b94b01',
+    extendedRequestId: '9ZaYKG/smVMTec8g1lmGdaKKcIZFQIGS7fUPo+g/ckaBk1kcShHXYsIm829JmH5sXDtWe0bubZAD1BQ0SWv9Dfjma5PAWpuN',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416455883810687304541918346424090626',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416455883811896230361532975598796802',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416455883813105156181147604773502978',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Error fetching from gemini: NetworkError: gemini GET https://api.gemini.com/v2/candles/btcusdt/1m fetch failed
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'dabf8cf3-f20c-e098-856a-afdc5bea26f9',
+    extendedRequestId: 'FR8n7om8e8VkbUUvpk3occE4Ojn+3+90aynWgGzK0sD2zLQU9ZTTm2XrXzt+eWdPSNi3U3+xkY8ccOyUoTyofj7ETB8OC9yR',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416455917762160022599168212040941570',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416455917763368948418782841215647746',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 2 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'f4b030f1-4d93-0095-ab65-139a60ed5072',
+    extendedRequestId: 'fLH/cT9jEfkSYy7OVJEAmfaLSjOcwD8n1dZXZq2TgxQbhlGHKmN9Oii/lUkglcrrNN+svQ8PtkYOXFDLLV443pILRjToqVXA',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416455951780123660735222682266632194',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416455951781332586554837311441338370',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416455951782541512374451940616044546',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'df3575ad-a943-fe00-80e0-560a302f7796',
+    extendedRequestId: 'QWEtU1gYcf29IUNJUdJ4mrhyXVG7bgzV9WucEMACF+mCRirdFMYzcROv/S/7Kpuo7b6JvdN7Gp/Z5+4i247fDhE2bNofmXqpA+VGOK4uGJk=',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416455985206922573079723554780479490',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416455985208131498899338183955185666',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416455985209340424718952813129891842',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'eb9887eb-c601-791a-b44d-a408ee382efe',
+    extendedRequestId: 'aZtf1zO6JHLD9a7kOv5yNAGBl6pjXS7QpAMO4tAx24uR5jnkwAPvaYdQOwOLZXriq384hYFgVoj9IVhv1yNdclDQdXBkddD3',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416456006199919430687763228002353154',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456006204755133966221744701177858',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456006205964059785836373875884034',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'c5777a88-c763-65fb-9aa2-5e979875932e',
+    extendedRequestId: 'zyLDrFF92l8IykoGg224irT0HMfWqUxumMLImtifQ7vvf7fFth4vzu0oDQ0WtIsj414rF3m7O0U9D8nS5cSxXGqOGcOvgT9dT3dWmYdfAaM=',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416456019039920560814743815725252610',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456019041129486634358444899958786',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456019042338412453973074074664962',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'd76a4c88-eddf-c29d-88bf-68d3d4114f40',
+    extendedRequestId: 'ftxAoaNmOxYI4TGwpD41iJwpdiX/u98/iYfUz5o1mUoaA3fhFnnaoky0ajyV2YGhl2ush+UQnuISnmHUN/GAWA8urkNBqjeOjDWaHZwa7Xk=',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416456031923443020447851053737574402',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456031924651946267465682912280578',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456031925860872087080312086986754',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'c5dffa3f-f675-fc27-9a0a-dea8752e9a8f',
+    extendedRequestId: 'aelSkvaR77ycSF5327kpbcpIaJgBX0SUU2AdmLImVsZ0ztIfBeMbn1hXSTxxdBvcGrnLJkgTA+eOVNsms8fr/o4N8WEwZpIc',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416456045042706014905810980817600514',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456045046332792364654868341719042',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456045047541718184269497516425218',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'c1ff8fa4-1b0d-8412-9e2a-ab77f8521eec',
+    extendedRequestId: 'F7Xx1l2oatpTKnRnGh8Hb4964zNDRZ6YmYMCVdbbZHraeURGxrYSqap53ugD61DJ7O/4Oa0TK3j7aJonBd9lKBskzWPaJ5wuE0nH5PtQc7A=',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416456058148670825348010055695335426',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456058149879751167624684870041602',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456058151088676987239314044747778',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'c448d10f-7fe1-6749-9b9d-f4003627ed16',
+    extendedRequestId: 'wRNC/eeL6R05P81daRhSWANlLvWe4FFt2HHKSgcM2foVq9AIOj2WZXFkVpGtqVxftiVgWS+KYJ86U/xpeR533bMocbdai4SU',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416456070937897071051176218080575490',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456070939105996870790847255281666',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456070940314922690405476429987842',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Error fetching from gemini: NetworkError: gemini GET https://api.gemini.com/v2/candles/btcusdt/1m fetch failed
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'c32a2cf1-0107-e575-9cff-09ba6ee6d975',
+    extendedRequestId: 'gvWvjQMVR7zAWpXWKB4nVB/hwh1EtkVVB3axWPFWFp6UBUoJdO2awnm563lL/IskjWOqK/UdvkySA5f9YcgAccLZLcX9F/2M',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416456083915715744614224463000502274',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456083916924670433839092175208450',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 2 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'dd94e520-dcb0-5f0c-8241-c0a8cbc0b32c',
+    extendedRequestId: 'yZ5q5Uf+UAAdPmiPgS2u96LFp8yk2LfNHJbbHQ4Pu9Qh6OH8+g1vhcn4a93okePbVFGoBMAEuLs5KpRj4d+wXEWUL62joU9R',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416456096931011118585326281055797250',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456096934637896044170168579915778',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456096935846821863784797754621954',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'e636cfe5-4893-ea90-b9e3-ea2121911290',
+    extendedRequestId: 'EYEcW34X0xZO0Qe2kDglt7iRVUI9DyD/XeV6RiBBTLUmGsJL2gFUeEOjFc97/JwBohoI1WcSBMtiP28Q01ozj2liTZFWy94Z',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416456110091377590910183668795310082',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456110092586516729798297970016258',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456110093795442549412927144722434',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'cfdbb072-182f-475a-900e-9672c8f3710c',
+    extendedRequestId: 'YuQzWXOCPrIw6r0Cq1S4xcKmQpInZBG/pUExhEXX5z+4f7XWD8Nmm83qRCr5w1Y9rUycl/2NwQx37EMh4Mb+d/wYg9+hXYbq852r/KdJK6A=',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416456123353293832082669838490664962',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456123354502757902284467665371138',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456123355711683721899096840077314',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'd0a46e03-8cf3-0823-8f71-483f0f7c76b6',
+    extendedRequestId: 'FEX4dqTOvTQ/f5EqGDkVsXJHG7H7+iZS2MLCA2bid26wZBUh68rRVQOsJk2KR+uOJDai96EUa7G2eUJyAh0MbVxmf4aOxVkuodEnCARvZLc=',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416456136364962428594927700302364674',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456136366171354414542329477070850',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456136367380280234156958651777026',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'ff175623-628a-1722-a0c2-705b4e29dec3',
+    extendedRequestId: 'dIZwucV3+W4iCfRExzsB0pCsonJwF+pBWHoqOzst0ABccMnk4yDqUhHe2pcmP3cVs6cf7WIR6ZKbI42roWVoZNAp1nus6eB3',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416456149429823761170229383240089602',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456149431032686989844012414795778',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456149432241612809458641589501954',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'f2dfcb04-0479-93cc-ad0a-edb0d87b5df3',
+    extendedRequestId: 'pEnZZv28IxORtl+doVgnWlWPKm7L06ABi3bi3eFPOBMT1xFWynXpaV7KAThDb2HfaCtLK8F4oNkC9+lXyIKs+65wJtB9QrvJ',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416456162717127444554622765604274178',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456162719545296193852023953686530',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456162720754222013466653128392706',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'e34c6b39-88cb-de2b-bc99-4dc900e30242',
+    extendedRequestId: 'HxJWVJz0l64MQzSMuRw3Sv3IlP0i6NqMXWUpupBnIHzv4Xz9kUU8TzjNiS/jILsfWogM4Wuf7Gzs/Z/qCHFa4ltzBQVLr4++',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416456175436235992720140435856556034',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456175437444918539755065031262210',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456175438653844359369694205968386',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'ca860338-847e-70f5-9553-2414553b5407',
+    extendedRequestId: 'v+NADkxBeIfIoJwodsW8zcKGJZrDHvjFQeThGKs1eeTIwF4L5m1L+7uKXyYoTBvmPMikkOIOoRLpawVdHJNxo24Aef0lL+xTU+9ay84O18M=',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416456188034451958924195188638220290',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456188038078736383039076162338818',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456188039287662202653705337044994',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'e368eaac-96ba-fbcd-bcbd-cdc403d4e3b8',
+    extendedRequestId: 'PYLlDW5cMNf+l3k9oH3HfhIb6YThEoKbFWzEO9QPG5aYMURaZWEEfQRiFk/RN1Di0PwJ+HsoWmbQpY4CQnW1iF6U2pWS7HrKsXhfQ3IgAgQ=',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416456200094695935399739958675636226',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456200095904861219354587850342402',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456200097113787038969217025048578',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'f20410ce-ad2c-530e-add1-3761fff3590f',
+    extendedRequestId: 'Aq1KBcyLoy5RSRA3AiU09phLiUqjIl7kOMzzAEN8tEAfRMZg047bUhTN43SkCqK2ALkj7bHVCi4n6ngxoMEQ6CFt3i+qAuoj',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416456214166592475714028431338373122',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456214167801401533643060513079298',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456214169010327353257689687785474',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'c216cf2b-acaf-36c6-9dc3-e8d149fbd284',
+    extendedRequestId: 'jhbGgFMx43a8O4dOy3lH6szXqAeZMTwLwhQyKyw83oJIVb9Tz/k/YfY1Kw2SxbGiJIzCedNQ5YamWFjDjNS6bY9WuF385YoO',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416456229852404985213847195831238658',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456229853613911033461825005944834',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456229854822836853076454180651010',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'ce0c7b55-8c55-6972-91d9-5349796b5dac',
+    extendedRequestId: 'Ij1G3Z3gQophc4UtEmJyL3U5hvXF3/O5UtehEMv2yCxALArX5KMu1KetMDxkpGDVygmcC9FGAC2ixnD2Hc0vyTjp/pzWrZyfJjvrOtNU8mI=',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416456236518421954568914801623302146',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456236519630880388529430798008322',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456236520839806208144059972714498',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'ee443562-3978-9928-b191-1d3b457d064e',
+    extendedRequestId: 'fXlmLj5/w2pt12FWaDYkZhPvgqFHfBGeckaAZHsHZqdM5RDK/vVmv/qDBj574+vUmJJfplBy3uxvPSTUoO3ns9PLpWIDzkQD',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416456248778138691280873316767760386',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456248779347617100487945942466562',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456248780556542920102575117172738',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Error fetching from gemini: RequestTimeout: gemini GET https://api.gemini.com/v2/candles/btcusdt/1m request timed out (10000 ms)
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'fdcc2b5d-75ca-cac6-a219-02f16f968ba3',
+    extendedRequestId: 'hqq1dfrzCGwVlt7f6dMWg+EaAGds5lKGjUehaLucxYxH/fnIzUuqF2DA1maaZcs/sJRXYGZOyV4CoosiCs59mpYvIUOAGuro',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416456315996832113493508053402648578',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456315998041039313122682577354754',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 2 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'cbefaf2a-d588-01d6-943a-8687264806ed',
+    extendedRequestId: 'fcJgM/tRtfH9mXMA1R6toEctqiUSIIBATNAj+m2gsIb1RELVtno1nCQrictobB5SUHpmD0fbwiAiAEUGBgSS1wynqN9DgO8e',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416456316319615307330614111768674306',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456316320824233150228740943380482',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456316322033158969843370118086658',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'c4989803-c2d0-a33f-9b4d-b1e9c593b3f8',
+    extendedRequestId: 'n7mFh2DSOJf+wdqcRUn2eGof1qc4tO1t2T4x4Zow+YygpTR95TNTvTFPGGbM4BqsK8u4CEmD8ct/SuAB17Pu8GMKerfYDolo',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416456328555153527650280180857962498',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456328557571379289509439207374850',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456328558780305109124068382081026',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'ce78b880-97c0-a387-91ad-92a6868c0320',
+    extendedRequestId: 'd7A50n4FA3j13E3aH/gNipaqe/PJpk9X2/ztos3nJIKYvSiKzPvQSC0TddZxVJF64CdEJgGj8Ul5heVMNk67JftsQhV0nuKO',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416456339929936564404330208836976642',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456339931145490223944838011682818',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456339932354416043559467186388994',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'fc6a0079-1ff2-a7e9-a3bf-2a1b8ebda1b6',
+    extendedRequestId: 'TOrH5I+mNAdI+Y8ui/6rACkS8PgODOLn1WC5Ku1MyRg5Z3EiAR1rsVjiA7tvZzi5VgiDcOo4Ak0/roFRNC4Ljvaaw0leix6K',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416456351834229110149587815337295874',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456351835438035969202444512002050',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456351836646961788817073686708226',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'd64901fd-9291-ef14-899c-2b636c862900',
+    extendedRequestId: '8F9LN7lQarQlSZI35EkC3qfdOeM5U7i0xTqiRcF/GP25+bNtb9pdzOCe+YtNHK4Wi4+g8CrJ99uT2UhJl3cNxlx6c1gGetdiV4/djqDKqw8=',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416456363846116053840547418386464770',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456363847324979660162047561170946',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456363848533905479776676735877122',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'e0f72d58-c16a-7e9b-bf22-0782ec9faab2',
+    extendedRequestId: '6FcTKjPIVK7doOuMjtexQxkllK/wUM3043hWk3E96LgLxnSOxQrTsP1yxWa020NNHz+/nNVW0Ul+yRcmtXi9J7v1DyxruR1x',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416456375646440979098946984581529602',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456375647649904918561613756235778',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456375648858830738176242930941954',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'd4967b4a-9d1e-940b-8b43-505c713b2137',
+    extendedRequestId: 'U/gkoQ2tJRw0cUEhbJCy1u5ARrsmHfS6suqRSxdPsU4YjNBNes2/9cYzYAu82WVBs9PrYTIr1TFN18uZLO9jptQoiDoQNTIWcqsFGc10Cag=',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416456388238612316204928522770186242',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456388239821242024543151944892418',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456388241030167844157781119598594',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'e45bcaac-eac0-f02d-bb8e-e1fe8af4191d',
+    extendedRequestId: '2y4mtSfxNZMT4P5Pk5SxAdqyGcvGM5J0OiBknuLxbUU0TUE5dTnkMi0DOg/yfJ/PJrhBuXvrNkr8COY34CDNfkT6+7zWjP7q',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416456399898701846388031035979857922',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456399901119698027260294329270274',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456399902328623846874923503976450',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'c2573c22-24d6-2474-9d82-17aca1c83b7c',
+    extendedRequestId: 'wQacEalOpblIQ5vmIATknZ5JoSoDytn0h0JqqYx5/qCtF544xzMfka+emVsoZnLEnxD8blCMYfh1vYXTHz/cjeFfa8BBXzb1',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416456411286783067157841984880640002',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456411287991992977456614055346178',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456411289200918797071243230052354',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'ca1dac72-3f98-31f4-95c8-87b8af048228',
+    extendedRequestId: '0/aI7SHzO6zqO1ZxV0qnoHYQ97MHA7g6qa4YgSJKCxH1XqLsk5wizsg3yNfNUPKUmD+PzB9UQeY+vpzNsEFLfg81x+bZAWU5J1r9jVtVTZk=',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416456422602328738750775252018528258',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456422603537664570389881193234434',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456422604746590390004510367940610',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'c427b7ca-d12a-34a3-9bf2-9bccd9609e9e',
+    extendedRequestId: 'yr4TusTGP+QMEwo341jE//MteypLhqtT/U+bj6GzGDabUCAVYoVBy7usb3R13opuXTvIE5LLTUCJciQljKHek+PYyTMsmm/u',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416456434182629164839312170978115586',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456434183838090658926800152821762',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456434185047016478541429327527938',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'cfbe6475-4a6d-d991-906b-483762d4639b',
+    extendedRequestId: 'RVeXpIEGeglInsDwu8TAguncaDi8BfaTEoS55JRUgS3KDRN2JYs3U5fhHhUeIfVFR9DVrDsnh6KPiP8TWSrN5cMgyBjbZSm1',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416456445582799643805269411625959426',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456445584008569624884040800665602',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456445585217495444498669975371778',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'e1981a18-42e5-e448-be4d-366600a4c83f',
+    extendedRequestId: 's3pMQg7q2Lpcq5sop7x6owuSs/8hYKI0xPhXiu4tvFSTI6gYTOkUFayf4i/vP2I+WoNfPYq2WoZ7GpoE0L8nJ7KCqMmvKYB2b3kllgniN50=',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416456457172771476450723501422149634',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456457173980402270338130596855810',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456457175189328089952759771561986',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'f17d3bbf-53ed-0b2b-aea8-1705aa3ba34b',
+    extendedRequestId: 'eF5JUfMGRl+SwAF3ogxEVZMhXOa57Gq1j54j2axzbES00NgbbQ6hxrB2RQy8GegBcFjXBPJIIE1zGDGvgECrXN/tEPw34DVo',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416456468279172981250325852616392706',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456468280381907069940481791098882',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456468281590832889555110965805058',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'fcff90f7-644a-5071-a32a-bc01baa473f5',
+    extendedRequestId: '+cPAIWVJYzNFVfXoHCQW9kSahNusapX3Ni3SKu3Cq3kpgpY/glMveOYBNFN1qJ38lo7hQWKL5Ek6gJjLRaFzylTZsjTn0SHK',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416456479292487197939601688638783490',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456479293696123759216317813489666',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456479294905049578830946988195842',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'ce976395-5095-375a-9142-4ea7e7e68a1d',
+    extendedRequestId: 'AoeP1JmvgHjGnFxFlr2oXBYy6vMFHbEltAbLAPDGFnC4ukgvazuxexLTLGJSwT9c6sXgIH77S61aEynbeliuioi3u/DiknCg',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416456490280413972416970380711821314',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456490281622898236585009886527490',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456490282831824056199639061233666',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'fb7e7893-04b7-c664-a4ab-55fd0af62522',
+    extendedRequestId: 'uaHPW16IrYiP9Z0wIVz0VCQ6hq+rZCA8nMmNylsqqfOnj6LTbgmTHovuStP3nxY6O537X5V1AF62p1GCNu60Yl4SfCOZd2mz',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416456501286474634188558579124928514',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456501287683560008173208299634690',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456501288892485827787837474340866',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'dcba22e4-5afa-54df-836f-0f4f0763e75b',
+    extendedRequestId: 'MHpIc6/IQQFI8TyJtRZU1NJ1IPFS7mz9auTp2EHUjsiLjAYbo5+Fcfn8nob//SP1Byb8f6h9bq3cGI0xmkoqeWYMbXJutNS+',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416456512580259641028428452398628866',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456512582677492667657710748041218',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456512583886418487272339922747394',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Error fetching from gemini: RequestTimeout: gemini GET https://api.gemini.com/v2/candles/btcusdt/1m request timed out (10000 ms)
+Error fetching from kraken: RequestTimeout: kraken GET https://api.kraken.com/0/public/OHLC?pair=XBTUSDT&interval=1 request timed out (10000 ms)
+Error in batch publishing: Error: Unexpected error: http2 request did not get a response
+    at ClientHttp2Stream.<anonymous> (/home/kh47/group_04_project/kinesis_test/node_modules/@smithy/node-http-handler/dist-cjs/index.js:699:29)
+    at ClientHttp2Stream.emit (node:events:518:28)
+    at ClientHttp2Stream.emit (node:domain:489:12)
+    at emitCloseNT (node:internal/streams/destroy:148:10)
+    at processTicksAndRejections (node:internal/process/task_queues:89:21) {
+  '$metadata': { attempts: 1, totalRetryDelay: 0 }
+}
+Failed to publish to Kinesis: Error: Unexpected error: http2 request did not get a response
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'd6fef59e-7e85-f80e-892b-dacd1eb1113e',
+    extendedRequestId: 'Bhzk3tpRGKq5Qt9KD1rIPwg0tyK0mCHK3lBD/lFDEcTkeLDRFlRkAxi7OZeVAs+JNFGQV44WpUtCdcfheYH0dgJkQmUhcsDC',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416456666425741593546937172934787074',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456666426950519366551802109493250',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456666428159445186166431284199426',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456666429368371005781060458905602',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 4 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'e14e6363-5fd9-eb2c-be9b-4cef39115772',
+    extendedRequestId: 's2n0hY1Ca3r3Z9W29t+PZbZvinbyJHtvSZgKaULFrV1OxQ6H3z5dDSHcN2U000tNv2UuC54v23Z8FJgJ4mr/F1oiPqPq++b0',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416456687572272030246034545185914882',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456687574689881885263803535327234',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456687575898807704878432710033410',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'f30fc26d-b394-0545-acda-eda45acca82b',
+    extendedRequestId: 'XUXkniCHfNyGN19+UKkeyFyAeJMzx/VAm9Ac8XzzrnVusij8KY+aLRg2L9rgCFqfo4fL4/2ybyrGjLs32qBpoL8Z85+5DTM/',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416456710005099539015097702921797634',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456710006308464834712332096503810',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456710007517390654326961271209986',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'e23dfc0c-419a-6789-bde8-cc0929df9826',
+    extendedRequestId: 'SDaZnXtWUpSNd+ioiWF/6MVNFqUBU7yBfBHWtE21E4+UZvzyJHG4BipgeStRIBbWUW+bDcIyi/c8DtPtXA2HAVgIFwTe8SUSjcMb6NwpRig=',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416456732545521445729862857206530050',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456732546730371549477486381236226',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456732547939297369092115555942402',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'cc43835b-4b53-352b-9396-b31b44dadd6c',
+    extendedRequestId: 'OlbCAyb3FzwbKl3dZwCCLpBkC5EAnrnELdbBLUrijuxJTfbFBpAwP91IgJdwWfpe93NlhZWE9sL2epI5x+ciKTyI6vZs9i29',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416456754216725688141709497438568450',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456754217934613961324126613274626',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456754219143539780938755787980802',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'c1b75443-3818-b1e0-9e62-643f9e12d13e',
+    extendedRequestId: 'pFnKm66IxSYtsdffnMb0b52u1uQWTUHuHk+igfGJAubpwJ2YQ8h9rtFb8BvccwkzuTbOUMYB7ZqNi4+or2kYQLrBmWYP5tq8',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416456776237309492422183969160691714',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456776239727344061413227510104066',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456776240936269881027856684810242',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Batch published to Kinesis: {
+  '$metadata': {
+    httpStatusCode: 200,
+    requestId: 'f98e185e-705e-2e49-a65b-28e66dec3536',
+    extendedRequestId: 'ime6igMVKq9lZ8z00EwoyQgyg+q0wPMT1V1wI3v2TS7cHR92C8tOogPLu2woEmuGHsGLb+iHS2JMNkg/1bWJpxJGldePNbgK2QqlbPOksSU=',
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  FailedRecordCount: 0,
+  Records: [
+    {
+      SequenceNumber: '49658435635286682502416456798364278768828745945695911938',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456798366696620467975204045324290',
+      ShardId: 'shardId-000000000000'
+    },
+    {
+      SequenceNumber: '49658435635286682502416456798367905546287589833220030466',
+      ShardId: 'shardId-000000000000'
+    }
+  ]
+}
+Published batch of 3 records
+Error fetching from gemini: RequestTimeout: gemini GET https://api.gemini.com/v2/candles/btcusdt/1m request timed out (10000 ms)
+Error fetching from kraken: RequestTimeout: kraken GET https://api.kraken.com/0/public/OHLC?pair=XBTUSDT&interval=1 request timed out (10000 ms)

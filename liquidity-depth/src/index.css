@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.Select.is-open {
+    z-index: 1000 !important;
+}
+
+.select-container {
+	border: 1px solid #e5e7eb;
+	border-radius: 0.375rem;
+	padding: 0.25rem;
+  }
+  
+  .select-container:focus-within {
+	outline: none;
+	@apply ring-1 ring-blue-500;
+  }
+  
+/* Loader container styles */
+.water-drop-loader {
+	position: relative;
+	width: 50px;
+	height: 75px;
+  }
+  
+  .fading-text {
+	font-size: 1.5rem;
+	color: #6b7280; /* Tailwind gray-500 */
+	animation: fadeInOut 1.5s infinite;
+  }
+  
+  /* Water drop styles */
+  .drop {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 10px;
+	height: 20px;
+	background-color: #3498db;
+	border-radius: 50% 50% 50% 50%;
+	animation: bounce 1.5s infinite ease-in-out;
+  }
+  
+  /* Splash styles */
+  .splash {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 40px;
+	height: 5px;
+	background-color: #3498db;
+	border-radius: 50%;
+	opacity: 0;
+	animation: splash 1.5s infinite ease-in-out;
+  }
+  
+  @keyframes fadeInOut {
+	0% {
+	  opacity: 1;
+	}
+	50% {
+	  opacity: 0.3;
+	}
+	100% {
+		opacity: 1;
+	}
+  }
+
+  /* Bouncing animation for the drop */
+  @keyframes bounce {
+	0% {
+	  top: 0;
+	  height: 20px;
+	}
+	50% {
+	  top: 80%;
+	  height: 10px;
+	}
+	100% {
+	  top: 0;
+	  height: 20px;
+	}
+  }
+  
+  /* Splash fade-out effect */
+  @keyframes splash {
+	0% {
+	  opacity: 0;
+	  transform: scaleX(0.5);
+	}
+	50% {
+	  opacity: 1;
+	  transform: scaleX(1);
+	}
+	100% {
+	  opacity: 0;
+	  transform: scaleX(0.5);
+	}
+  }
+  
