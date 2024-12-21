@@ -1,6 +1,9 @@
 # Liquiditydepth.xyz
 Real-Time Liquidity Comparison Dashboard for Centralized and Decentralized Crypto Exchanges
 
+### Note
+This project started out as an intern/course project. Although this repo holds the open-source code to the current site liquiditydepth.xyz, olders versions of the project are on the gitlab: https://gitlab.engr.illinois.edu/ie421_high_frequency_trading_fall_2024/ie421_hft_fall_2024_group_04/group_04_project
+
 ## Objective
 The primary objective of this project is to develop a web-based dashboard that streams real-time data from major decentralized exchanges (DEXs) and centralized exchanges (CEXs). This dashboard will provide users an intuitive interface to compare liquidity and price for top trading pairs across multiple venues/networks. The goal is to identify the exchanges that offer the most liquidity and lowest-cost execution environments for traders.
 
